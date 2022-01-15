@@ -15,7 +15,7 @@ const d=document,
       let artist= e.target.artist.value.toLowerCase(),
     
       $artistTemplate="",
-      artistAPI=`https://theaudiodb.com/api/v1/json/1/search.php?s=${artist}`,
+      artistAPI=`https://theaudiodb.com/api/v1/json/2/search.php?s=${artist}`,
    
 
       artistFetch= fetch(artistAPI),
